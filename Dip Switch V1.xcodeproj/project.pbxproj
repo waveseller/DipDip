@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9DADE421C78CEAC00E4CE74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE411C78CEAC00E4CE74 /* AppDelegate.swift */; };
+		B9DADE441C78CEAC00E4CE74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE431C78CEAC00E4CE74 /* ViewController.swift */; };
+		B9DADE471C78CEAC00E4CE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE451C78CEAC00E4CE74 /* Main.storyboard */; };
+		B9DADE491C78CEAC00E4CE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE481C78CEAC00E4CE74 /* Assets.xcassets */; };
+		B9DADE4C1C78CEAC00E4CE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE4A1C78CEAC00E4CE74 /* LaunchScreen.storyboard */; };
+		B9DADE571C78CEAC00E4CE74 /* Dip_Switch_V1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE561C78CEAC00E4CE74 /* Dip_Switch_V1Tests.swift */; };
+		B9DADE621C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE611C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9DADE531C78CEAC00E4CE74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9DADE361C78CEAC00E4CE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9DADE3D1C78CEAC00E4CE74;
+			remoteInfo = "Dip Switch V1";
+		};
+		B9DADE5E1C78CEAC00E4CE74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9DADE361C78CEAC00E4CE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9DADE3D1C78CEAC00E4CE74;
+			remoteInfo = "Dip Switch V1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9DADE3E1C78CEAC00E4CE74 /* Dip Switch V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dip Switch V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DADE411C78CEAC00E4CE74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9DADE431C78CEAC00E4CE74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9DADE461C78CEAC00E4CE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9DADE481C78CEAC00E4CE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9DADE4B1C78CEAC00E4CE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9DADE4D1C78CEAC00E4CE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9DADE521C78CEAC00E4CE74 /* Dip Switch V1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dip Switch V1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DADE561C78CEAC00E4CE74 /* Dip_Switch_V1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dip_Switch_V1Tests.swift; sourceTree = "<group>"; };
+		B9DADE581C78CEAC00E4CE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9DADE5D1C78CEAC00E4CE74 /* Dip Switch V1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dip Switch V1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DADE611C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dip_Switch_V1UITests.swift; sourceTree = "<group>"; };
+		B9DADE631C78CEAC00E4CE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9DADE3B1C78CEAC00E4CE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DADE4F1C78CEAC00E4CE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DADE5A1C78CEAC00E4CE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9DADE351C78CEAC00E4CE74 = {
+			isa = PBXGroup;
+			children = (
+				B9DADE401C78CEAC00E4CE74 /* Dip Switch V1 */,
+				B9DADE551C78CEAC00E4CE74 /* Dip Switch V1Tests */,
+				B9DADE601C78CEAC00E4CE74 /* Dip Switch V1UITests */,
+				B9DADE3F1C78CEAC00E4CE74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9DADE3F1C78CEAC00E4CE74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9DADE3E1C78CEAC00E4CE74 /* Dip Switch V1.app */,
+				B9DADE521C78CEAC00E4CE74 /* Dip Switch V1Tests.xctest */,
+				B9DADE5D1C78CEAC00E4CE74 /* Dip Switch V1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9DADE401C78CEAC00E4CE74 /* Dip Switch V1 */ = {
+			isa = PBXGroup;
+			children = (
+				B9DADE411C78CEAC00E4CE74 /* AppDelegate.swift */,
+				B9DADE431C78CEAC00E4CE74 /* ViewController.swift */,
+				B9DADE451C78CEAC00E4CE74 /* Main.storyboard */,
+				B9DADE481C78CEAC00E4CE74 /* Assets.xcassets */,
+				B9DADE4A1C78CEAC00E4CE74 /* LaunchScreen.storyboard */,
+				B9DADE4D1C78CEAC00E4CE74 /* Info.plist */,
+			);
+			path = "Dip Switch V1";
+			sourceTree = "<group>";
+		};
+		B9DADE551C78CEAC00E4CE74 /* Dip Switch V1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9DADE561C78CEAC00E4CE74 /* Dip_Switch_V1Tests.swift */,
+				B9DADE581C78CEAC00E4CE74 /* Info.plist */,
+			);
+			path = "Dip Switch V1Tests";
+			sourceTree = "<group>";
+		};
+		B9DADE601C78CEAC00E4CE74 /* Dip Switch V1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9DADE611C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift */,
+				B9DADE631C78CEAC00E4CE74 /* Info.plist */,
+			);
+			path = "Dip Switch V1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9DADE3D1C78CEAC00E4CE74 /* Dip Switch V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9DADE661C78CEAC00E4CE74 /* Build configuration list for PBXNativeTarget "Dip Switch V1" */;
+			buildPhases = (
+				B9DADE3A1C78CEAC00E4CE74 /* Sources */,
+				B9DADE3B1C78CEAC00E4CE74 /* Frameworks */,
+				B9DADE3C1C78CEAC00E4CE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dip Switch V1";
+			productName = "Dip Switch V1";
+			productReference = B9DADE3E1C78CEAC00E4CE74 /* Dip Switch V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9DADE511C78CEAC00E4CE74 /* Dip Switch V1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9DADE691C78CEAC00E4CE74 /* Build configuration list for PBXNativeTarget "Dip Switch V1Tests" */;
+			buildPhases = (
+				B9DADE4E1C78CEAC00E4CE74 /* Sources */,
+				B9DADE4F1C78CEAC00E4CE74 /* Frameworks */,
+				B9DADE501C78CEAC00E4CE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9DADE541C78CEAC00E4CE74 /* PBXTargetDependency */,
+			);
+			name = "Dip Switch V1Tests";
+			productName = "Dip Switch V1Tests";
+			productReference = B9DADE521C78CEAC00E4CE74 /* Dip Switch V1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9DADE5C1C78CEAC00E4CE74 /* Dip Switch V1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9DADE6C1C78CEAC00E4CE74 /* Build configuration list for PBXNativeTarget "Dip Switch V1UITests" */;
+			buildPhases = (
+				B9DADE591C78CEAC00E4CE74 /* Sources */,
+				B9DADE5A1C78CEAC00E4CE74 /* Frameworks */,
+				B9DADE5B1C78CEAC00E4CE74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9DADE5F1C78CEAC00E4CE74 /* PBXTargetDependency */,
+			);
+			name = "Dip Switch V1UITests";
+			productName = "Dip Switch V1UITests";
+			productReference = B9DADE5D1C78CEAC00E4CE74 /* Dip Switch V1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9DADE361C78CEAC00E4CE74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jordan Babev";
+				TargetAttributes = {
+					B9DADE3D1C78CEAC00E4CE74 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B9DADE511C78CEAC00E4CE74 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B9DADE3D1C78CEAC00E4CE74;
+					};
+					B9DADE5C1C78CEAC00E4CE74 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B9DADE3D1C78CEAC00E4CE74;
+					};
+				};
+			};
+			buildConfigurationList = B9DADE391C78CEAC00E4CE74 /* Build configuration list for PBXProject "Dip Switch V1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9DADE351C78CEAC00E4CE74;
+			productRefGroup = B9DADE3F1C78CEAC00E4CE74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9DADE3D1C78CEAC00E4CE74 /* Dip Switch V1 */,
+				B9DADE511C78CEAC00E4CE74 /* Dip Switch V1Tests */,
+				B9DADE5C1C78CEAC00E4CE74 /* Dip Switch V1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9DADE3C1C78CEAC00E4CE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DADE4C1C78CEAC00E4CE74 /* LaunchScreen.storyboard in Resources */,
+				B9DADE491C78CEAC00E4CE74 /* Assets.xcassets in Resources */,
+				B9DADE471C78CEAC00E4CE74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DADE501C78CEAC00E4CE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DADE5B1C78CEAC00E4CE74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9DADE3A1C78CEAC00E4CE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DADE441C78CEAC00E4CE74 /* ViewController.swift in Sources */,
+				B9DADE421C78CEAC00E4CE74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DADE4E1C78CEAC00E4CE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DADE571C78CEAC00E4CE74 /* Dip_Switch_V1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DADE591C78CEAC00E4CE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DADE621C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9DADE541C78CEAC00E4CE74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9DADE3D1C78CEAC00E4CE74 /* Dip Switch V1 */;
+			targetProxy = B9DADE531C78CEAC00E4CE74 /* PBXContainerItemProxy */;
+		};
+		B9DADE5F1C78CEAC00E4CE74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9DADE3D1C78CEAC00E4CE74 /* Dip Switch V1 */;
+			targetProxy = B9DADE5E1C78CEAC00E4CE74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9DADE451C78CEAC00E4CE74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9DADE461C78CEAC00E4CE74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9DADE4A1C78CEAC00E4CE74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9DADE4B1C78CEAC00E4CE74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9DADE641C78CEAC00E4CE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9DADE651C78CEAC00E4CE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9DADE671C78CEAC00E4CE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dip Switch V1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LightingKrew.Dip-Switch-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9DADE681C78CEAC00E4CE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dip Switch V1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LightingKrew.Dip-Switch-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9DADE6A1C78CEAC00E4CE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dip Switch V1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LightingKrew.Dip-Switch-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dip Switch V1.app/Dip Switch V1";
+			};
+			name = Debug;
+		};
+		B9DADE6B1C78CEAC00E4CE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dip Switch V1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LightingKrew.Dip-Switch-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dip Switch V1.app/Dip Switch V1";
+			};
+			name = Release;
+		};
+		B9DADE6D1C78CEAC00E4CE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dip Switch V1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LightingKrew.Dip-Switch-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dip Switch V1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B9DADE6E1C78CEAC00E4CE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dip Switch V1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LightingKrew.Dip-Switch-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dip Switch V1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9DADE391C78CEAC00E4CE74 /* Build configuration list for PBXProject "Dip Switch V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9DADE641C78CEAC00E4CE74 /* Debug */,
+				B9DADE651C78CEAC00E4CE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9DADE661C78CEAC00E4CE74 /* Build configuration list for PBXNativeTarget "Dip Switch V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9DADE671C78CEAC00E4CE74 /* Debug */,
+				B9DADE681C78CEAC00E4CE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9DADE691C78CEAC00E4CE74 /* Build configuration list for PBXNativeTarget "Dip Switch V1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9DADE6A1C78CEAC00E4CE74 /* Debug */,
+				B9DADE6B1C78CEAC00E4CE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9DADE6C1C78CEAC00E4CE74 /* Build configuration list for PBXNativeTarget "Dip Switch V1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9DADE6D1C78CEAC00E4CE74 /* Debug */,
+				B9DADE6E1C78CEAC00E4CE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9DADE361C78CEAC00E4CE74 /* Project object */;
+}
