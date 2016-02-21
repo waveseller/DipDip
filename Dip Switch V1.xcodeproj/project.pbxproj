@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B9DADE421C78CEAC00E4CE74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE411C78CEAC00E4CE74 /* AppDelegate.swift */; };
-		B9DADE441C78CEAC00E4CE74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE431C78CEAC00E4CE74 /* ViewController.swift */; };
+		B9DADE441C78CEAC00E4CE74 /* DipSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE431C78CEAC00E4CE74 /* DipSwitchViewController.swift */; };
 		B9DADE471C78CEAC00E4CE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE451C78CEAC00E4CE74 /* Main.storyboard */; };
 		B9DADE491C78CEAC00E4CE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE481C78CEAC00E4CE74 /* Assets.xcassets */; };
 		B9DADE4C1C78CEAC00E4CE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE4A1C78CEAC00E4CE74 /* LaunchScreen.storyboard */; };
 		B9DADE571C78CEAC00E4CE74 /* Dip_Switch_V1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE561C78CEAC00E4CE74 /* Dip_Switch_V1Tests.swift */; };
 		B9DADE621C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE611C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift */; };
+		B9DADE731C78D11D00E4CE74 /* DipSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE721C78D11D00E4CE74 /* DipSwitch.swift */; };
+		B9DADE751C78D13C00E4CE74 /* DipSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE741C78D13C00E4CE74 /* DipSwitch.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		B9DADE3E1C78CEAC00E4CE74 /* Dip Switch V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dip Switch V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DADE411C78CEAC00E4CE74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9DADE431C78CEAC00E4CE74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9DADE431C78CEAC00E4CE74 /* DipSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DipSwitchViewController.swift; sourceTree = "<group>"; };
 		B9DADE461C78CEAC00E4CE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9DADE481C78CEAC00E4CE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9DADE4B1C78CEAC00E4CE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		B9DADE5D1C78CEAC00E4CE74 /* Dip Switch V1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dip Switch V1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DADE611C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dip_Switch_V1UITests.swift; sourceTree = "<group>"; };
 		B9DADE631C78CEAC00E4CE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9DADE721C78D11D00E4CE74 /* DipSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DipSwitch.swift; sourceTree = "<group>"; };
+		B9DADE741C78D13C00E4CE74 /* DipSwitch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DipSwitch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,11 @@
 		B9DADE401C78CEAC00E4CE74 /* Dip Switch V1 */ = {
 			isa = PBXGroup;
 			children = (
+				B9DADE711C78D0C900E4CE74 /* SettingButtons */,
+				B9DADE701C78D0A400E4CE74 /* NumPadButton */,
+				B9DADE6F1C78D08700E4CE74 /* Switch */,
 				B9DADE411C78CEAC00E4CE74 /* AppDelegate.swift */,
-				B9DADE431C78CEAC00E4CE74 /* ViewController.swift */,
+				B9DADE431C78CEAC00E4CE74 /* DipSwitchViewController.swift */,
 				B9DADE451C78CEAC00E4CE74 /* Main.storyboard */,
 				B9DADE481C78CEAC00E4CE74 /* Assets.xcassets */,
 				B9DADE4A1C78CEAC00E4CE74 /* LaunchScreen.storyboard */,
@@ -123,6 +130,29 @@
 				B9DADE631C78CEAC00E4CE74 /* Info.plist */,
 			);
 			path = "Dip Switch V1UITests";
+			sourceTree = "<group>";
+		};
+		B9DADE6F1C78D08700E4CE74 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				B9DADE721C78D11D00E4CE74 /* DipSwitch.swift */,
+				B9DADE741C78D13C00E4CE74 /* DipSwitch.xib */,
+			);
+			name = Switch;
+			sourceTree = "<group>";
+		};
+		B9DADE701C78D0A400E4CE74 /* NumPadButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NumPadButton;
+			sourceTree = "<group>";
+		};
+		B9DADE711C78D0C900E4CE74 /* SettingButtons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SettingButtons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DADE4C1C78CEAC00E4CE74 /* LaunchScreen.storyboard in Resources */,
+				B9DADE751C78D13C00E4CE74 /* DipSwitch.xib in Resources */,
 				B9DADE491C78CEAC00E4CE74 /* Assets.xcassets in Resources */,
 				B9DADE471C78CEAC00E4CE74 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DADE441C78CEAC00E4CE74 /* ViewController.swift in Sources */,
+				B9DADE441C78CEAC00E4CE74 /* DipSwitchViewController.swift in Sources */,
+				B9DADE731C78D11D00E4CE74 /* DipSwitch.swift in Sources */,
 				B9DADE421C78CEAC00E4CE74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
