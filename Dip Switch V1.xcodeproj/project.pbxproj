@@ -16,6 +16,9 @@
 		B9DADE621C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE611C78CEAC00E4CE74 /* Dip_Switch_V1UITests.swift */; };
 		B9DADE731C78D11D00E4CE74 /* DipSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE721C78D11D00E4CE74 /* DipSwitch.swift */; };
 		B9DADE751C78D13C00E4CE74 /* DipSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE741C78D13C00E4CE74 /* DipSwitch.xib */; };
+		B9DADE771C79E6EB00E4CE74 /* NumberPadButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE761C79E6EB00E4CE74 /* NumberPadButton.xib */; };
+		B9DADE791C79E6FE00E4CE74 /* NumberPadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE781C79E6FE00E4CE74 /* NumberPadButton.swift */; };
+		B9DADE7B1C7A063E00E4CE74 /* GeneralSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE7A1C7A063E00E4CE74 /* GeneralSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		B9DADE631C78CEAC00E4CE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9DADE721C78D11D00E4CE74 /* DipSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DipSwitch.swift; sourceTree = "<group>"; };
 		B9DADE741C78D13C00E4CE74 /* DipSwitch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DipSwitch.xib; sourceTree = "<group>"; };
+		B9DADE761C79E6EB00E4CE74 /* NumberPadButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPadButton.xib; sourceTree = "<group>"; };
+		B9DADE781C79E6FE00E4CE74 /* NumberPadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadButton.swift; sourceTree = "<group>"; };
+		B9DADE7A1C7A063E00E4CE74 /* GeneralSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 				B9DADE411C78CEAC00E4CE74 /* AppDelegate.swift */,
 				B9DADE431C78CEAC00E4CE74 /* DipSwitchViewController.swift */,
 				B9DADE451C78CEAC00E4CE74 /* Main.storyboard */,
+				B9DADE7A1C7A063E00E4CE74 /* GeneralSettings.swift */,
 				B9DADE481C78CEAC00E4CE74 /* Assets.xcassets */,
 				B9DADE4A1C78CEAC00E4CE74 /* LaunchScreen.storyboard */,
 				B9DADE4D1C78CEAC00E4CE74 /* Info.plist */,
@@ -144,6 +151,8 @@
 		B9DADE701C78D0A400E4CE74 /* NumPadButton */ = {
 			isa = PBXGroup;
 			children = (
+				B9DADE781C79E6FE00E4CE74 /* NumberPadButton.swift */,
+				B9DADE761C79E6EB00E4CE74 /* NumberPadButton.xib */,
 			);
 			name = NumPadButton;
 			sourceTree = "<group>";
@@ -260,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DADE4C1C78CEAC00E4CE74 /* LaunchScreen.storyboard in Resources */,
+				B9DADE771C79E6EB00E4CE74 /* NumberPadButton.xib in Resources */,
 				B9DADE751C78D13C00E4CE74 /* DipSwitch.xib in Resources */,
 				B9DADE491C78CEAC00E4CE74 /* Assets.xcassets in Resources */,
 				B9DADE471C78CEAC00E4CE74 /* Main.storyboard in Resources */,
@@ -289,7 +299,9 @@
 			files = (
 				B9DADE441C78CEAC00E4CE74 /* DipSwitchViewController.swift in Sources */,
 				B9DADE731C78D11D00E4CE74 /* DipSwitch.swift in Sources */,
+				B9DADE791C79E6FE00E4CE74 /* NumberPadButton.swift in Sources */,
 				B9DADE421C78CEAC00E4CE74 /* AppDelegate.swift in Sources */,
+				B9DADE7B1C7A063E00E4CE74 /* GeneralSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
