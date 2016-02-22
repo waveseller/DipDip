@@ -19,8 +19,8 @@
 		B9DADE771C79E6EB00E4CE74 /* NumberPadButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE761C79E6EB00E4CE74 /* NumberPadButton.xib */; };
 		B9DADE791C79E6FE00E4CE74 /* NumberPadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE781C79E6FE00E4CE74 /* NumberPadButton.swift */; };
 		B9DADE7B1C7A063E00E4CE74 /* GeneralSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE7A1C7A063E00E4CE74 /* GeneralSettings.swift */; };
-		B9DADE7F1C7B060B00E4CE74 /* SettingButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE7E1C7B060B00E4CE74 /* SettingButton.xib */; };
-		B9DADE811C7B069F00E4CE74 /* SettingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE801C7B069F00E4CE74 /* SettingButton.swift */; };
+		B9DADE7F1C7B060B00E4CE74 /* SmallButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE7E1C7B060B00E4CE74 /* SmallButton.xib */; };
+		B9DADE811C7B069F00E4CE74 /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE801C7B069F00E4CE74 /* SmallButton.swift */; };
 		B9DADE871C7B090500E4CE74 /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE861C7B090500E4CE74 /* CalculateButton.swift */; };
 		B9DADE891C7B091900E4CE74 /* CalculateButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE881C7B091900E4CE74 /* CalculateButton.xib */; };
 		B9DADE8B1C7B093000E4CE74 /* OffsetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE8A1C7B093000E4CE74 /* OffsetButton.swift */; };
@@ -69,8 +69,8 @@
 		B9DADE761C79E6EB00E4CE74 /* NumberPadButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPadButton.xib; sourceTree = "<group>"; };
 		B9DADE781C79E6FE00E4CE74 /* NumberPadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadButton.swift; sourceTree = "<group>"; };
 		B9DADE7A1C7A063E00E4CE74 /* GeneralSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSettings.swift; sourceTree = "<group>"; };
-		B9DADE7E1C7B060B00E4CE74 /* SettingButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingButton.xib; sourceTree = "<group>"; };
-		B9DADE801C7B069F00E4CE74 /* SettingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingButton.swift; sourceTree = "<group>"; };
+		B9DADE7E1C7B060B00E4CE74 /* SmallButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallButton.xib; sourceTree = "<group>"; };
+		B9DADE801C7B069F00E4CE74 /* SmallButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
 		B9DADE861C7B090500E4CE74 /* CalculateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
 		B9DADE881C7B091900E4CE74 /* CalculateButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculateButton.xib; sourceTree = "<group>"; };
 		B9DADE8A1C7B093000E4CE74 /* OffsetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetButton.swift; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 				B9DADE841C7B08BA00E4CE74 /* DisplayResult */,
 				B9DADE831C7B089F00E4CE74 /* OffsetButtons */,
 				B9DADE821C7B089000E4CE74 /* CalculateButtons */,
-				B9DADE711C78D0C900E4CE74 /* SettingButtons */,
+				B9DADE711C78D0C900E4CE74 /* SmallButtons */,
 				B9DADE701C78D0A400E4CE74 /* NumPadButton */,
 				B9DADE6F1C78D08700E4CE74 /* Switch */,
 				B9DADE411C78CEAC00E4CE74 /* AppDelegate.swift */,
@@ -186,13 +186,13 @@
 			name = NumPadButton;
 			sourceTree = "<group>";
 		};
-		B9DADE711C78D0C900E4CE74 /* SettingButtons */ = {
+		B9DADE711C78D0C900E4CE74 /* SmallButtons */ = {
 			isa = PBXGroup;
 			children = (
-				B9DADE801C7B069F00E4CE74 /* SettingButton.swift */,
-				B9DADE7E1C7B060B00E4CE74 /* SettingButton.xib */,
+				B9DADE801C7B069F00E4CE74 /* SmallButton.swift */,
+				B9DADE7E1C7B060B00E4CE74 /* SmallButton.xib */,
 			);
-			name = SettingButtons;
+			name = SmallButtons;
 			sourceTree = "<group>";
 		};
 		B9DADE821C7B089000E4CE74 /* CalculateButtons */ = {
@@ -344,7 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DADE7F1C7B060B00E4CE74 /* SettingButton.xib in Resources */,
+				B9DADE7F1C7B060B00E4CE74 /* SmallButton.xib in Resources */,
 				B9DADE4C1C78CEAC00E4CE74 /* LaunchScreen.storyboard in Resources */,
 				B9DADE911C7B096400E4CE74 /* DisplayResult.xib in Resources */,
 				B9DADE771C79E6EB00E4CE74 /* NumberPadButton.xib in Resources */,
@@ -384,7 +384,7 @@
 				B9DADE8F1C7B095600E4CE74 /* DisplayResult.swift in Sources */,
 				B9DADE931C7B097600E4CE74 /* DisplayOffset.swift in Sources */,
 				B9DADE731C78D11D00E4CE74 /* DipSwitch.swift in Sources */,
-				B9DADE811C7B069F00E4CE74 /* SettingButton.swift in Sources */,
+				B9DADE811C7B069F00E4CE74 /* SmallButton.swift in Sources */,
 				B9DADE791C79E6FE00E4CE74 /* NumberPadButton.swift in Sources */,
 				B9DADE981C7B183C00E4CE74 /* NextPrevButton.swift in Sources */,
 				B9DADE421C78CEAC00E4CE74 /* AppDelegate.swift in Sources */,

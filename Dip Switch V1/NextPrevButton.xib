@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NextPrevButton" customModule="Dip_Switch_V1" customModuleProvider="target">
@@ -18,20 +17,11 @@
             <rect key="frame" x="0.0" y="0.0" width="72" height="80"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnp-ln-8Qr">
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnp-ln-8Qr">
                     <rect key="frame" x="0.0" y="0.0" width="72" height="80"/>
-                    <constraints>
-                        <constraint firstAttribute="width" secondItem="qnp-ln-8Qr" secondAttribute="height" multiplier="9:10" id="d3z-Nb-RBx"/>
-                    </constraints>
-                    <state key="normal" image="buttonNext"/>
+                    <state key="normal" image="buttonPrevious"/>
                 </button>
             </subviews>
-            <constraints>
-                <constraint firstAttribute="trailing" secondItem="qnp-ln-8Qr" secondAttribute="trailing" id="6bB-8i-dCy"/>
-                <constraint firstAttribute="bottom" secondItem="qnp-ln-8Qr" secondAttribute="bottom" id="EHN-dg-Xnn"/>
-                <constraint firstItem="qnp-ln-8Qr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="I3w-hm-EGe"/>
-                <constraint firstItem="qnp-ln-8Qr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="S3N-1Y-VCn"/>
-            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
@@ -41,6 +31,6 @@
         </view>
     </objects>
     <resources>
-        <image name="buttonNext" width="72" height="80"/>
+        <image name="buttonPrevious" width="72" height="80"/>
     </resources>
 </document>
