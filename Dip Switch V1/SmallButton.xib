@@ -20,7 +20,7 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbG-Hd-ndw">
                     <rect key="frame" x="0.0" y="0.0" width="72" height="80"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="vbG-Hd-ndw" secondAttribute="height" multiplier="9:10" id="pVR-Ja-KMn"/>
+                        <constraint firstAttribute="width" secondItem="vbG-Hd-ndw" secondAttribute="height" multiplier="9:10" id="Ef3-nI-fLv"/>
                     </constraints>
                     <state key="normal" image="buttonLightOff"/>
                     <connections>
@@ -29,10 +29,10 @@
                 </button>
             </subviews>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="vbG-Hd-ndw" secondAttribute="trailing" id="4ih-dk-5d2"/>
-                <constraint firstItem="vbG-Hd-ndw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KP5-HF-GDp"/>
-                <constraint firstAttribute="bottom" secondItem="vbG-Hd-ndw" secondAttribute="bottom" id="fIo-qk-E52"/>
-                <constraint firstItem="vbG-Hd-ndw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="va1-sO-I4h"/>
+                <constraint firstAttribute="trailing" secondItem="vbG-Hd-ndw" secondAttribute="trailing" id="GUN-FS-udT"/>
+                <constraint firstAttribute="bottom" secondItem="vbG-Hd-ndw" secondAttribute="bottom" id="YCb-sM-F4F"/>
+                <constraint firstItem="vbG-Hd-ndw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yOB-rZ-WSu"/>
+                <constraint firstItem="vbG-Hd-ndw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yvd-gi-SAY"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>

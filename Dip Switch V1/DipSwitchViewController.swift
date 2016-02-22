@@ -16,6 +16,13 @@ class DipSwitchViewController: UIViewController {
     @IBOutlet weak var buttonNine: NumberPadButton!
     @IBOutlet weak var buttonZero: NumberPadButton!
     
+    @IBOutlet weak var buttonLight: SmallButton!
+    @IBOutlet weak var buttonSound: SmallButton!
+    
+   
+    @IBOutlet weak var buttonNext: SmallButton!
+    @IBOutlet weak var buttonPrevious: SmallButton!
+   
     
     
     
@@ -37,6 +44,13 @@ class DipSwitchViewController: UIViewController {
         buttonEight.buttonImageSetup(buttonEightImg!)
         buttonNine.buttonImageSetup(buttonNineImg!)
         buttonZero.buttonImageSetup(buttonZeroImg!)
+        
+        buttonLight.buttonImageSetup(buttonLightOffImg!)
+        buttonSound.buttonImageSetup(buttonSoundOffImg!)
+        
+        buttonNext.buttonImageSetup(buttonNextImg!)
+        buttonPrevious.buttonImageSetup(buttonPreviousImg!)
+        
         
         
     }

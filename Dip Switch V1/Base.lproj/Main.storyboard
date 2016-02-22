@@ -311,10 +311,14 @@
                         <outlet property="buttonEight" destination="Ere-wK-ApN" id="Cp9-Y7-Knr"/>
                         <outlet property="buttonFive" destination="JQ3-Nq-X0u" id="1rJ-Hy-GZm"/>
                         <outlet property="buttonFour" destination="dYK-GT-xyd" id="Eqz-af-jXz"/>
+                        <outlet property="buttonLight" destination="clx-22-S35" id="lGY-o2-Cs5"/>
+                        <outlet property="buttonNext" destination="zGO-Vu-0i0" id="xaL-ZM-ZJ7"/>
                         <outlet property="buttonNine" destination="kx8-Vs-pre" id="kgu-Md-WTN"/>
                         <outlet property="buttonOne" destination="jmM-yP-9Sj" id="OtW-dG-iui"/>
+                        <outlet property="buttonPrevious" destination="hpM-Mg-8kf" id="haa-HK-F7j"/>
                         <outlet property="buttonSeven" destination="Jfd-8q-gol" id="hLp-cW-60w"/>
                         <outlet property="buttonSix" destination="LbL-t9-lOV" id="XOz-5p-ZbH"/>
+                        <outlet property="buttonSound" destination="Snw-Ym-b6N" id="YgK-Uw-5zL"/>
                         <outlet property="buttonThree" destination="yvd-iJ-PA8" id="cS3-7w-2eS"/>
                         <outlet property="buttonTwo" destination="j4I-dg-hpo" id="npw-XF-Uwb"/>
                         <outlet property="buttonZero" destination="kaj-2A-ZHi" id="u8F-Y3-aF7"/>

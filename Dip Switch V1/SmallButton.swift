@@ -55,13 +55,22 @@ class SmallButton: UIView {
 
     @IBAction func buttonPressed(sender: UIButton) {
         
-    
-    print("setting button pressed \(sender.imageForState(.Normal))")
+
+        var image = UIImage()
+        image = sender.imageForState(.Normal)!
         
-        
-        
-        
-        
+        switch image {
+        case buttonNextImg!:
+            print("premuto pulsante next")
+        case buttonPreviousImg!:
+            print("premuto pulsante previous")
+        case buttonLightOnImg!, buttonLightOffImg!:
+            print("premuto pulsante light setting")
+        case buttonSoundOffImg!, buttonSoundOnImg!:
+            print("premuto pulsante sound setting")
+        default:
+            print("sono cazzi")
+        }
     }
     
 
