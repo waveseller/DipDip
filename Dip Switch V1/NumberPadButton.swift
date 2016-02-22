@@ -60,5 +60,40 @@ class NumberPadButton: UIView {
     }
 
     @IBAction func buttonPressed(sender: UIButton) {
+        
+        var tag = 0
+        var image = UIImage()
+        image = sender.imageForState(.Normal)!
+        
+        switch image {
+        case buttonOneImg!:
+            sender.tag = 1
+        case buttonTwoImg!:
+            sender.tag = 2
+        case buttonThreeImg!:
+            sender.tag = 3
+        case buttonFourImg!:
+            sender.tag = 4
+        case buttonFiveImg!:
+            sender.tag = 5
+        case buttonSixImg!:
+            sender.tag = 6
+        case buttonSevenImg!:
+            sender.tag = 7
+        case buttonEightImg!:
+            sender.tag = 8
+        case buttonNineImg!:
+            sender.tag = 9
+        case buttonZeroImg!:
+            sender.tag = 0
+        default:
+            sender.tag = 0
+        }
+        
+        tag = sender.tag
+        print("il pulsante premuto è: \(tag)")
+        
     }
+    
+
 }

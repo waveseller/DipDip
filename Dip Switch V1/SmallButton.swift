@@ -61,18 +61,37 @@ class SmallButton: UIView {
         
         switch image {
         case buttonNextImg!:
-            print("premuto pulsante next")
+            self.nextPressed()
         case buttonPreviousImg!:
-            print("premuto pulsante previous")
+            self.previousPressed()
         case buttonLightOnImg!, buttonLightOffImg!:
-            print("premuto pulsante light setting")
+           self.lightPressed()
         case buttonSoundOffImg!, buttonSoundOnImg!:
-            print("premuto pulsante sound setting")
+            self.soundPressed()
         default:
             print("sono cazzi")
         }
+        
+        
     }
     
+    func nextPressed() {
+        
+        print("next pressed")
+    }
+    
+    func previousPressed() {
+        print("previous pressed")
+        
+    }
+    
+    func lightPressed() {
+        print("light  pressed")
+    }
+    
+    func soundPressed() {
+        print("sound pressed")
+    }
 
     
 
