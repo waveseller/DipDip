@@ -1,21 +1,10 @@
-//
-//  CalculateButton.swift
-//  Dip Switch V1
-//
-//  Created by Jordan Babev on 22/02/16.
-//  Copyright © 2016 Jordan Babev. All rights reserved.
-//
+//Classe che si occuperà di disegnare nella schermata principale i pulsanti Calcola e Reset ed implementerà le loro funzioni
 
 import UIKit
+@IBDesignable
 
 class CalculateButton: UIView {
 
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
-    }
-    */
+    
 
 }

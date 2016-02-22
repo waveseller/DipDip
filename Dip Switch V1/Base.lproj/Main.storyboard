@@ -203,6 +203,15 @@
                                     <constraint firstAttribute="height" constant="80" id="xtE-f4-dcE"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="clx-22-S35" userLabel="Setting Sound" customClass="SettingButton" customModule="Dip_Switch_V1" customModuleProvider="target">
+                                <rect key="frame" x="15" y="143" width="42" height="47"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zGO-Vu-0i0" customClass="NextPrevButton" customModule="Dip_Switch_V1" customModuleProvider="target">
+                                <rect key="frame" x="264" y="88" width="72" height="80"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Snw-Ym-b6N" userLabel="Setting Light" customClass="SettingButton" customModule="Dip_Switch_V1" customModuleProvider="target">
+                                <rect key="frame" x="15" y="191" width="42" height="47"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.090196078431372548" green="0.38823529411764707" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>

@@ -3,9 +3,8 @@
 import UIKit
 @IBDesignable
 
-class SettingButton: UIView {
+class NextPrevButton: UIView {
 
-    //referenza alla view
     @IBOutlet var view: UIView!
     @IBOutlet weak var button: UIButton!
     
@@ -22,7 +21,7 @@ class SettingButton: UIView {
     func loadViewFromNib() -> UIView {
         
         let bundle = NSBundle(forClass: self.dynamicType)
-        let nib = UINib(nibName: "SettingButton", bundle: bundle)
+        let nib = UINib(nibName: "NextPrevButton", bundle: bundle)
         let view = nib.instantiateWithOwner(self, options: nil)[0] as! UIView
         return view
     }
@@ -53,12 +52,5 @@ class SettingButton: UIView {
         
     }
 
-    @IBAction func buttonPressed(sender: UIButton) {
-        
-        print("setting button pressed")
-    }
-    
-
-    
 
 }

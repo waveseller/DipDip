@@ -3,24 +3,46 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingButton" customModule="Dip_Switch_V1" customModuleProvider="target">
             <connections>
+                <outlet property="button" destination="vbG-Hd-ndw" id="8Ml-hU-0KS"/>
                 <outlet property="view" destination="iN0-l3-epB" id="7qV-Hu-2nj"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="291" height="283"/>
+            <rect key="frame" x="0.0" y="0.0" width="72" height="80"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbG-Hd-ndw">
+                    <rect key="frame" x="0.0" y="0.0" width="72" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="vbG-Hd-ndw" secondAttribute="height" multiplier="9:10" id="pVR-Ja-KMn"/>
+                    </constraints>
+                    <state key="normal" image="buttonLightOff"/>
+                    <connections>
+                        <action selector="buttonPressed:" destination="-1" eventType="touchUpInside" id="J20-Yk-JPd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vbG-Hd-ndw" secondAttribute="trailing" id="4ih-dk-5d2"/>
+                <constraint firstItem="vbG-Hd-ndw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KP5-HF-GDp"/>
+                <constraint firstAttribute="bottom" secondItem="vbG-Hd-ndw" secondAttribute="bottom" id="fIo-qk-E52"/>
+                <constraint firstItem="vbG-Hd-ndw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="va1-sO-I4h"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="207.5" y="396.5"/>
+            <point key="canvasLocation" x="207" y="396"/>
         </view>
     </objects>
+    <resources>
+        <image name="buttonLightOff" width="72" height="80"/>
+    </resources>
 </document>
