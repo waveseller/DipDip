@@ -19,6 +19,8 @@
 		B9DADE771C79E6EB00E4CE74 /* NumberPadButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE761C79E6EB00E4CE74 /* NumberPadButton.xib */; };
 		B9DADE791C79E6FE00E4CE74 /* NumberPadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE781C79E6FE00E4CE74 /* NumberPadButton.swift */; };
 		B9DADE7B1C7A063E00E4CE74 /* GeneralSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE7A1C7A063E00E4CE74 /* GeneralSettings.swift */; };
+		B9DADE7F1C7B060B00E4CE74 /* SettingButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE7E1C7B060B00E4CE74 /* SettingButton.xib */; };
+		B9DADE811C7B069F00E4CE74 /* SettingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE801C7B069F00E4CE74 /* SettingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		B9DADE761C79E6EB00E4CE74 /* NumberPadButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPadButton.xib; sourceTree = "<group>"; };
 		B9DADE781C79E6FE00E4CE74 /* NumberPadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadButton.swift; sourceTree = "<group>"; };
 		B9DADE7A1C7A063E00E4CE74 /* GeneralSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSettings.swift; sourceTree = "<group>"; };
+		B9DADE7E1C7B060B00E4CE74 /* SettingButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingButton.xib; sourceTree = "<group>"; };
+		B9DADE801C7B069F00E4CE74 /* SettingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 		B9DADE711C78D0C900E4CE74 /* SettingButtons */ = {
 			isa = PBXGroup;
 			children = (
+				B9DADE801C7B069F00E4CE74 /* SettingButton.swift */,
+				B9DADE7E1C7B060B00E4CE74 /* SettingButton.xib */,
 			);
 			name = SettingButtons;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DADE7F1C7B060B00E4CE74 /* SettingButton.xib in Resources */,
 				B9DADE4C1C78CEAC00E4CE74 /* LaunchScreen.storyboard in Resources */,
 				B9DADE771C79E6EB00E4CE74 /* NumberPadButton.xib in Resources */,
 				B9DADE751C78D13C00E4CE74 /* DipSwitch.xib in Resources */,
@@ -299,6 +306,7 @@
 			files = (
 				B9DADE441C78CEAC00E4CE74 /* DipSwitchViewController.swift in Sources */,
 				B9DADE731C78D11D00E4CE74 /* DipSwitch.swift in Sources */,
+				B9DADE811C7B069F00E4CE74 /* SettingButton.swift in Sources */,
 				B9DADE791C79E6FE00E4CE74 /* NumberPadButton.swift in Sources */,
 				B9DADE421C78CEAC00E4CE74 /* AppDelegate.swift in Sources */,
 				B9DADE7B1C7A063E00E4CE74 /* GeneralSettings.swift in Sources */,
@@ -526,6 +534,7 @@
 				B9DADE681C78CEAC00E4CE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9DADE691C78CEAC00E4CE74 /* Build configuration list for PBXNativeTarget "Dip Switch V1Tests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +543,7 @@
 				B9DADE6B1C78CEAC00E4CE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9DADE6C1C78CEAC00E4CE74 /* Build configuration list for PBXNativeTarget "Dip Switch V1UITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +552,7 @@
 				B9DADE6E1C78CEAC00E4CE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -71,6 +71,18 @@ class DipSwitch: UIView {
         
     }
     
+    @IBAction func dipSwitchTapped(sender: UITapGestureRecognizer) {
+        
+        print("viee tapped")
+        if imageView.image == imageSwitchOff{
+        
+        self.setImageForSwitchOn()
+        } else {
+            self.setImageForSwitchOff()
+        }
+    }
+    
+    
     
 
 

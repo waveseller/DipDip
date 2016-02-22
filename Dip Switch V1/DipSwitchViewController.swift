@@ -37,6 +37,8 @@ class DipSwitchViewController: UIViewController {
         buttonEight.buttonImageSetup(buttonEightImg!)
         buttonNine.buttonImageSetup(buttonNineImg!)
         buttonZero.buttonImageSetup(buttonZeroImg!)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

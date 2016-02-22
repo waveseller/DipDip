@@ -18,6 +18,10 @@
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dipSwitchOff" translatesAutoresizingMaskIntoConstraints="NO" id="48n-G9-Pex">
                     <rect key="frame" x="0.0" y="0.0" width="34" height="100"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="pRc-Fc-g6s" appends="YES" id="Pix-8z-YOB"/>
+                    </connections>
                 </imageView>
             </subviews>
             <nil key="simulatedStatusBarMetrics"/>
@@ -26,6 +30,11 @@
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
+        <tapGestureRecognizer id="pRc-Fc-g6s">
+            <connections>
+                <action selector="dipSwitchTapped:" destination="-1" id="gjy-ey-4oQ"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
     <resources>
         <image name="dipSwitchOff" width="34" height="100"/>
