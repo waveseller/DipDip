@@ -21,6 +21,14 @@
 		B9DADE7B1C7A063E00E4CE74 /* GeneralSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE7A1C7A063E00E4CE74 /* GeneralSettings.swift */; };
 		B9DADE7F1C7B060B00E4CE74 /* SettingButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE7E1C7B060B00E4CE74 /* SettingButton.xib */; };
 		B9DADE811C7B069F00E4CE74 /* SettingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE801C7B069F00E4CE74 /* SettingButton.swift */; };
+		B9DADE871C7B090500E4CE74 /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE861C7B090500E4CE74 /* CalculateButton.swift */; };
+		B9DADE891C7B091900E4CE74 /* CalculateButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE881C7B091900E4CE74 /* CalculateButton.xib */; };
+		B9DADE8B1C7B093000E4CE74 /* OffsetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE8A1C7B093000E4CE74 /* OffsetButton.swift */; };
+		B9DADE8D1C7B093E00E4CE74 /* OffsetButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE8C1C7B093E00E4CE74 /* OffsetButton.xib */; };
+		B9DADE8F1C7B095600E4CE74 /* DisplayResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE8E1C7B095600E4CE74 /* DisplayResult.swift */; };
+		B9DADE911C7B096400E4CE74 /* DisplayResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE901C7B096400E4CE74 /* DisplayResult.xib */; };
+		B9DADE931C7B097600E4CE74 /* DisplayOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DADE921C7B097600E4CE74 /* DisplayOffset.swift */; };
+		B9DADE951C7B098300E4CE74 /* DisplayOffset.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DADE941C7B098300E4CE74 /* DisplayOffset.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +69,14 @@
 		B9DADE7A1C7A063E00E4CE74 /* GeneralSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSettings.swift; sourceTree = "<group>"; };
 		B9DADE7E1C7B060B00E4CE74 /* SettingButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingButton.xib; sourceTree = "<group>"; };
 		B9DADE801C7B069F00E4CE74 /* SettingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingButton.swift; sourceTree = "<group>"; };
+		B9DADE861C7B090500E4CE74 /* CalculateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
+		B9DADE881C7B091900E4CE74 /* CalculateButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculateButton.xib; sourceTree = "<group>"; };
+		B9DADE8A1C7B093000E4CE74 /* OffsetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetButton.swift; sourceTree = "<group>"; };
+		B9DADE8C1C7B093E00E4CE74 /* OffsetButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffsetButton.xib; sourceTree = "<group>"; };
+		B9DADE8E1C7B095600E4CE74 /* DisplayResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayResult.swift; sourceTree = "<group>"; };
+		B9DADE901C7B096400E4CE74 /* DisplayResult.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayResult.xib; sourceTree = "<group>"; };
+		B9DADE921C7B097600E4CE74 /* DisplayOffset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayOffset.swift; sourceTree = "<group>"; };
+		B9DADE941C7B098300E4CE74 /* DisplayOffset.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayOffset.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +127,10 @@
 		B9DADE401C78CEAC00E4CE74 /* Dip Switch V1 */ = {
 			isa = PBXGroup;
 			children = (
+				B9DADE851C7B08CE00E4CE74 /* Display Offset */,
+				B9DADE841C7B08BA00E4CE74 /* DisplayResult */,
+				B9DADE831C7B089F00E4CE74 /* OffsetButtons */,
+				B9DADE821C7B089000E4CE74 /* CalculateButtons */,
 				B9DADE711C78D0C900E4CE74 /* SettingButtons */,
 				B9DADE701C78D0A400E4CE74 /* NumPadButton */,
 				B9DADE6F1C78D08700E4CE74 /* Switch */,
@@ -168,6 +188,42 @@
 				B9DADE7E1C7B060B00E4CE74 /* SettingButton.xib */,
 			);
 			name = SettingButtons;
+			sourceTree = "<group>";
+		};
+		B9DADE821C7B089000E4CE74 /* CalculateButtons */ = {
+			isa = PBXGroup;
+			children = (
+				B9DADE861C7B090500E4CE74 /* CalculateButton.swift */,
+				B9DADE881C7B091900E4CE74 /* CalculateButton.xib */,
+			);
+			name = CalculateButtons;
+			sourceTree = "<group>";
+		};
+		B9DADE831C7B089F00E4CE74 /* OffsetButtons */ = {
+			isa = PBXGroup;
+			children = (
+				B9DADE8A1C7B093000E4CE74 /* OffsetButton.swift */,
+				B9DADE8C1C7B093E00E4CE74 /* OffsetButton.xib */,
+			);
+			name = OffsetButtons;
+			sourceTree = "<group>";
+		};
+		B9DADE841C7B08BA00E4CE74 /* DisplayResult */ = {
+			isa = PBXGroup;
+			children = (
+				B9DADE8E1C7B095600E4CE74 /* DisplayResult.swift */,
+				B9DADE901C7B096400E4CE74 /* DisplayResult.xib */,
+			);
+			name = DisplayResult;
+			sourceTree = "<group>";
+		};
+		B9DADE851C7B08CE00E4CE74 /* Display Offset */ = {
+			isa = PBXGroup;
+			children = (
+				B9DADE921C7B097600E4CE74 /* DisplayOffset.swift */,
+				B9DADE941C7B098300E4CE74 /* DisplayOffset.xib */,
+			);
+			name = "Display Offset";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,10 +332,14 @@
 			files = (
 				B9DADE7F1C7B060B00E4CE74 /* SettingButton.xib in Resources */,
 				B9DADE4C1C78CEAC00E4CE74 /* LaunchScreen.storyboard in Resources */,
+				B9DADE911C7B096400E4CE74 /* DisplayResult.xib in Resources */,
 				B9DADE771C79E6EB00E4CE74 /* NumberPadButton.xib in Resources */,
 				B9DADE751C78D13C00E4CE74 /* DipSwitch.xib in Resources */,
+				B9DADE8D1C7B093E00E4CE74 /* OffsetButton.xib in Resources */,
 				B9DADE491C78CEAC00E4CE74 /* Assets.xcassets in Resources */,
+				B9DADE891C7B091900E4CE74 /* CalculateButton.xib in Resources */,
 				B9DADE471C78CEAC00E4CE74 /* Main.storyboard in Resources */,
+				B9DADE951C7B098300E4CE74 /* DisplayOffset.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,11 +364,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DADE8B1C7B093000E4CE74 /* OffsetButton.swift in Sources */,
 				B9DADE441C78CEAC00E4CE74 /* DipSwitchViewController.swift in Sources */,
+				B9DADE8F1C7B095600E4CE74 /* DisplayResult.swift in Sources */,
+				B9DADE931C7B097600E4CE74 /* DisplayOffset.swift in Sources */,
 				B9DADE731C78D11D00E4CE74 /* DipSwitch.swift in Sources */,
 				B9DADE811C7B069F00E4CE74 /* SettingButton.swift in Sources */,
 				B9DADE791C79E6FE00E4CE74 /* NumberPadButton.swift in Sources */,
 				B9DADE421C78CEAC00E4CE74 /* AppDelegate.swift in Sources */,
+				B9DADE871C7B090500E4CE74 /* CalculateButton.swift in Sources */,
 				B9DADE7B1C7A063E00E4CE74 /* GeneralSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
