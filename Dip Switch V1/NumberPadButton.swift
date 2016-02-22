@@ -59,4 +59,6 @@ class NumberPadButton: UIView {
         
     }
 
+    @IBAction func buttonPressed(sender: UIButton) {
+    }
 }

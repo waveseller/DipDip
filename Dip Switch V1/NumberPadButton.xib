@@ -19,6 +19,9 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Usg-KK-FWb">
                     <rect key="frame" x="0.0" y="0.0" width="72" height="80"/>
                     <state key="normal" image="buttonOne"/>
+                    <connections>
+                        <action selector="buttonPressed:" destination="-1" eventType="touchUpInside" id="y7r-JC-wNz"/>
+                    </connections>
                 </button>
             </subviews>
             <constraints>
