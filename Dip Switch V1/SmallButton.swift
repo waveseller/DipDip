@@ -68,6 +68,10 @@ class SmallButton: UIView {
            self.lightPressed()
         case buttonSoundOffImg!, buttonSoundOnImg!:
             self.soundPressed()
+        case buttonPlusOneImg!:
+            self.plusOnePressed()
+        case buttonMinusOneImg!:
+            self.minusOnePressed()
         default:
             print("sono cazzi")
         }
@@ -91,6 +95,14 @@ class SmallButton: UIView {
     
     func soundPressed() {
         print("sound pressed")
+    }
+    
+    func plusOnePressed() {
+        print("plus one pressed")
+    }
+    
+    func minusOnePressed() {
+        print("minus one pressed")
     }
 
     

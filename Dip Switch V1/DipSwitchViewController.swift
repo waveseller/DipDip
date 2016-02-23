@@ -22,6 +22,10 @@ class DipSwitchViewController: UIViewController {
    
     @IBOutlet weak var buttonNext: SmallButton!
     @IBOutlet weak var buttonPrevious: SmallButton!
+    
+    @IBOutlet weak var buttonPlusOne: SmallButton!
+    @IBOutlet weak var buttonMinusOne: SmallButton!
+    
    
     
     
@@ -50,6 +54,9 @@ class DipSwitchViewController: UIViewController {
         
         buttonNext.buttonImageSetup(buttonNextImg!)
         buttonPrevious.buttonImageSetup(buttonPreviousImg!)
+        
+        buttonPlusOne.buttonImageSetup(buttonPlusOneImg!)
+        buttonMinusOne.buttonImageSetup(buttonMinusOneImg!)
         
         
         

@@ -1,13 +1,17 @@
-
+//
+//  Displays.swift
+//  Dip Switch V1
+//
+//  Created by Jordan Babev on 23/02/16.
+//  Copyright © 2016 Jordan Babev. All rights reserved.
+//
 
 import UIKit
 @IBDesignable
 
-class NextPrevButton: UIView {
+class Displays: UIView {
 
     @IBOutlet var view: UIView!
-    @IBOutlet weak var button: UIButton!
-    
     //MARK: inizializzazione della view da .xib
     func xibSetup() {
         
@@ -21,7 +25,7 @@ class NextPrevButton: UIView {
     func loadViewFromNib() -> UIView {
         
         let bundle = NSBundle(forClass: self.dynamicType)
-        let nib = UINib(nibName: "NextPrevButton", bundle: bundle)
+        let nib = UINib(nibName: "Displays", bundle: bundle)
         let view = nib.instantiateWithOwner(self, options: nil)[0] as! UIView
         return view
     }
@@ -44,12 +48,6 @@ class NextPrevButton: UIView {
         
         // 3. Setup view from .xib file
         xibSetup()
-    }
-    
-    func buttonImageSetup(image: UIImage) {
-        
-        button.setImage(image, forState: .Normal)
-        
     }
 
 
